@@ -27,9 +27,55 @@ $deco-font: 'Open Sans';
 /** GLOBAL */
 
 *, *::before, *::after {
-        box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $text-font;
+  font-size: 14px;
+}
+
+.main_container {
+  max-width: 940px;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 
-
 /** MAIN */
+
+
+/** header */
+.logo_navigation {
+  margin-top: 50px;
+}
+
+.logo {
+  font-size: 25px;
+  font-family: 'Pacifico';
+  color: $leading-color;
+}
+
+.navigation {
+  padding: 0;
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+
+    li {
+      display: inline-block;
+
+      a {
+        padding-left: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: $deco-font;
+        color: rgb(255, 255, 255);
+      }
+    }
+  }
+}

@@ -9,5 +9,50 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+}
+
+.main_container {
+  max-width: 940px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
 /** MAIN */
+/** header */
+.logo_navigation {
+  margin-top: 50px;
+}
+
+.logo {
+  font-size: 25px;
+  font-family: 'Pacifico';
+  color: #fed136;
+}
+
+.navigation {
+  padding: 0;
+}
+
+.navigation ul {
+  padding: 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation ul li a {
+  padding-left: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
