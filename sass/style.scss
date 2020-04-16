@@ -3,6 +3,7 @@
 /** colors */
 $leading-color: rgb(254, 209, 54);
 $section-color: rgb(247, 247, 247);
+$text-white-color: rgb(255, 255, 255);
 
 /** fonts */
 $section-font: 'Montserrat';
@@ -49,7 +50,7 @@ body {
 
 /** header */
 .logo_navigation {
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .logo {
@@ -74,8 +75,48 @@ body {
         text-decoration: none;
         text-transform: uppercase;
         font-family: $deco-font;
-        color: rgb(255, 255, 255);
+        color: $text-white-color;
       }
+    }
+  }
+}
+
+
+.splash {
+  position: relative;
+  height: 900px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.75)),url('/images/men_accesories.jpg'),;
+  background-position: center center;
+  background-size: cover;
+
+  .splash_inner {
+    padding-top: 205px;
+    text-align: center;
+
+    .welcome_text {
+      font-weight: 100;
+      font-family: $text-font;
+      font-style: italic;
+      font-size: 40px;
+      text-transform: uppercase;
+      color: $text-white-color;
+    }
+
+    h1 {
+      padding: 50px 0;
+      font-size: 75px;
+      font-weight: 700;
+      font-family: $deco-font;
+      text-transform: uppercase;
+      color: $text-white-color;
+    }
+
+    .btn {
+      font-size: 18px;
+      font-family: $section-font;
+      text-transform: uppercase;
+      color: $text-white-color;
+      background: $leading-color;
     }
   }
 }

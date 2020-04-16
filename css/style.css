@@ -25,7 +25,7 @@ body {
 /** MAIN */
 /** header */
 .logo_navigation {
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .logo {
@@ -54,5 +54,44 @@ body {
   text-transform: uppercase;
   font-family: "Open Sans";
   color: white;
+}
+
+.splash {
+  position: relative;
+  height: 900px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.75)), url("/images/men_accesories.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.splash .splash_inner {
+  padding-top: 205px;
+  text-align: center;
+}
+
+.splash .splash_inner .welcome_text {
+  font-weight: 100;
+  font-family: "Roboto Slab";
+  font-style: italic;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.splash .splash_inner h1 {
+  padding: 50px 0;
+  font-size: 75px;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  color: white;
+}
+
+.splash .splash_inner .btn {
+  font-size: 18px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  color: white;
+  background: #fed136;
 }
 /*# sourceMappingURL=style.css.map */
