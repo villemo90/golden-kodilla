@@ -15,8 +15,24 @@ $deco-font: 'Open Sans';
 /** MIXINS */
 
 /** base mixins*/
-@mixin section-margin {
-  margin: 120px 0;
+@mixin section-title {
+  h2 {
+    margin-top: 120px;
+    font-size: 40px;
+    font-family: $section-font;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(14, 14, 14);
+  }
+
+  p {
+    margin-bottom: 120px;
+    text-align: center;
+    font-weight: 100;
+    font-family: $text-font;
+    font-style: italic;
+  }
 }
 
 /** individual mixnis */
@@ -48,7 +64,7 @@ body {
 /** MAIN */
 
 
-/** header */
+/** header navigation */
 .logo_navigation {
   padding-top: 50px;
 }
@@ -81,7 +97,7 @@ body {
   }
 }
 
-
+/** splash */
 .splash {
   position: relative;
   height: 900px;
@@ -117,6 +133,37 @@ body {
       text-transform: uppercase;
       color: $text-white-color;
       background: $leading-color;
+    }
+  }
+}
+
+/** services */
+.services {
+  text-align: center;
+  margin-bottom: 120px;
+
+  .section_title {
+    @include section-title;
+  }
+
+  .services_box {
+    font-family: $section-font;
+
+    h3 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: 200;
+      text-align: justify;
+    }
+
+    i {
+      font-size: 50px;
+      padding-bottom: 15px;
+      color: $leading-color;
     }
   }
 }
