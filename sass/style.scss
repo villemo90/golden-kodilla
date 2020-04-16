@@ -1,0 +1,35 @@
+/** VARIABLES */
+
+/** colors */
+$leading-color: rgb(254, 209, 54);
+$section-color: rgb(247, 247, 247);
+
+/** fonts */
+$section-font: 'Montserrat';
+$text-font: 'Roboto Slab';
+$deco-font: 'Open Sans';
+
+
+
+/** MIXINS */
+
+/** base mixins*/
+@mixin section-margin {
+  margin: 120px 0;
+}
+
+/** individual mixnis */
+
+
+
+
+
+/** GLOBAL */
+
+*, *::before, *::after {
+        box-sizing: border-box;
+}
+
+
+
+/** MAIN */

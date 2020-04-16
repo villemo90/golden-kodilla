@@ -1,0 +1,13 @@
+/** VARIABLES */
+/** colors */
+/** fonts */
+/** MIXINS */
+/** base mixins*/
+/** individual mixnis */
+/** GLOBAL */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/** MAIN */
+/*# sourceMappingURL=style.css.map */
