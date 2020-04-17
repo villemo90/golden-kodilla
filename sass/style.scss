@@ -256,3 +256,37 @@ body {
     color: rgb(218, 39, 19);
   }
 }
+
+/** MEDIA QUERIES */
+
+@media (max-width: 575px) {
+
+  .navigation_sm {
+    padding-right: 15px;
+  }
+
+  .box_space {
+    margin-bottom: 40px;
+  }
+  .services_box {
+    p {
+      padding: 0 60px;
+    }
+  }
+  .splash_sm {
+    max-height: 770px;
+  }
+
+  .welcome_text_sm {
+    font-size: 25px !important;
+  }
+
+  .h1_text_sm {
+    font-size: 55px !important;
+    padding: 0 60px !important;
+  }
+
+  .copyright_sm {
+    padding-left: 60px;
+  }
+}
