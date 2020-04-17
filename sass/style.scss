@@ -205,3 +205,54 @@ body {
     }
   }
 }
+
+/** page footer */
+.page_footer {
+  padding: 50px 0;
+
+  .copyright {
+    font-family: $section-font;
+    font-size: 14px;
+
+    p {
+      margin: 0;
+      padding-top: 10px;
+    }
+  }
+
+  .social_media {
+    color: $text-white-color;
+
+    i {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      border-radius: 20px;
+      line-height: 40px;
+      font-size: 18px;
+      text-align: center;
+      background: rgb(14, 14, 14);
+    }
+  }
+}
+
+.twitter_hover {
+  &:hover {
+    color: rgb(1, 172, 237);
+  }
+}
+.facebook_hover {
+  &:hover {
+    color: rgb(59, 89, 152);
+  }
+}
+.pinterest_hover {
+  &:hover {
+    color: rgb(208, 53, 60);
+  }
+}
+.google_hover {
+  &:hover {
+    color: rgb(218, 39, 19);
+  }
+}

@@ -194,4 +194,50 @@ body {
   font-style: italic;
   text-transform: capitalize;
 }
+
+/** page footer */
+.page_footer {
+  padding: 50px 0;
+}
+
+.page_footer .copyright {
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+
+.page_footer .copyright p {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.page_footer .social_media {
+  color: white;
+}
+
+.page_footer .social_media i {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border-radius: 20px;
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+  background: #0e0e0e;
+}
+
+.twitter_hover:hover {
+  color: #01aced;
+}
+
+.facebook_hover:hover {
+  color: #3b5998;
+}
+
+.pinterest_hover:hover {
+  color: #d0353c;
+}
+
+.google_hover:hover {
+  color: #da2713;
+}
 /*# sourceMappingURL=style.css.map */
