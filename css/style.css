@@ -22,6 +22,10 @@ body {
   margin: auto;
 }
 
+.row_space {
+  margin-bottom: 50px;
+}
+
 /** MAIN */
 /** header navigation */
 .logo_navigation {
@@ -99,11 +103,11 @@ body {
 /** services */
 .services {
   text-align: center;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .services .section_title h2 {
-  margin-top: 120px;
+  padding-top: 120px;
   font-size: 40px;
   font-family: "Montserrat";
   font-weight: 700;
@@ -139,5 +143,55 @@ body {
   font-size: 50px;
   padding-bottom: 15px;
   color: #fed136;
+}
+
+/** our portfolio */
+.portfolio {
+  background: #f7f7f7;
+  padding-bottom: 120px;
+}
+
+.portfolio .section_title h2 {
+  padding-top: 120px;
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0e0e0e;
+}
+
+.portfolio .section_title p {
+  margin-bottom: 120px;
+  text-align: center;
+  font-weight: 100;
+  font-family: "Roboto Slab";
+  font-style: italic;
+}
+
+.portfolio .portfolio_box {
+  text-align: center;
+}
+
+.portfolio .portfolio_box img {
+  width: 100%;
+}
+
+.portfolio .portfolio_box .portfolio_inner {
+  padding: 25px 0;
+  font-family: "Roboto Slab";
+  background: white;
+  font-weight: 300;
+}
+
+.portfolio .portfolio_box .portfolio_inner h3 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.portfolio .portfolio_box .portfolio_inner p {
+  font-style: italic;
+  text-transform: capitalize;
 }
 /*# sourceMappingURL=style.css.map */

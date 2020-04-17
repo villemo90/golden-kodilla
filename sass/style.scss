@@ -17,7 +17,7 @@ $deco-font: 'Open Sans';
 /** base mixins*/
 @mixin section-title {
   h2 {
-    margin-top: 120px;
+    padding-top: 120px;
     font-size: 40px;
     font-family: $section-font;
     font-weight: 700;
@@ -60,6 +60,9 @@ body {
   margin: auto;
 }
 
+.row_space {
+  margin-bottom: 50px;
+}
 
 /** MAIN */
 
@@ -140,7 +143,7 @@ body {
 /** services */
 .services {
   text-align: center;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 
   .section_title {
     @include section-title;
@@ -164,6 +167,41 @@ body {
       font-size: 50px;
       padding-bottom: 15px;
       color: $leading-color;
+    }
+  }
+}
+
+/** our portfolio */
+.portfolio {
+  background: $section-color;
+  padding-bottom: 120px;
+  .section_title {
+    @include section-title;
+  }
+
+  .portfolio_box {
+    text-align: center;
+
+    img {
+      width: 100%;
+    }
+
+    .portfolio_inner {
+      padding: 25px 0;
+      font-family: $text-font;
+      background: $text-white-color;
+      font-weight: 300;
+
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-style: italic;
+        text-transform: capitalize;
+      }
     }
   }
 }
